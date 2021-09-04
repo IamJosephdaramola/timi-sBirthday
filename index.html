@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: aquamarine;
+        color: coral;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        min-height: 100vh;
+        width: 100vw;
+      }
+      h1 {
+        text-align: center;
+      }
+      div {
+        position: relative;
+        height: 600px;
+        width: 90vw;
+        background-image: url("/bobo2.jpeg");
+        /* background-repeat: no-repeat; */
+        background-position: top 40% left 30%;
+        background-size: contain;
+        animation: change-bg 42s linear infinite;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+      }
+
+      @keyframes change-bg {
+        0% {
+          background: url("/bobo1.jpeg");
+          background-position: top 40% left 30%;
+        }
+        20% {
+          background: url("/bobo3.jpeg");
+          background-position: top 40% left 30%;
+        }
+        40% {
+          background: url("/bobo4.jpeg");
+          background-position: top 40% left 30%;
+        }
+        60% {
+          background: url("/bobo5.jpeg");
+          background-position: top 40% left 30%;
+        }
+        80% {
+          background: url("/bobo6.jpeg");
+          background-position: top 40% left 30%;
+        }
+        100% {
+          background: url("/bobo7.jpeg");
+          background-position: top 40% left 30%;
+        }
+      }
+    </style>
+    <title>Oluwabobo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Happy Birthday Timi 😃</h1>
+      <div></div>
+      <article>
+        <audio src="/happybirthday.mp3" autoplay controls loop></audio>
+      </article>
+    </header>
+  </body>
+</html>
