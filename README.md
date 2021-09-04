@@ -1,3 +1,3 @@
 # timi-sBirthday
 Something very basic...
-Made for handsome kiddo under 30minutes
+Made for my handsome lil brother under 30minutes
